@@ -1,6 +1,8 @@
 /* FULL BODY */
 *{
     margin: 0;
+    padding: 0;
+
 }
 
 body{
@@ -14,13 +16,13 @@ body{
 
 /* Navigation */
 #title_nav{
+    padding-top: 12px;
     float: left;
     width: 25%;
     text-align: center;
     position: relative;
     list-style-type: none;
     color: white;
-    padding: 10px;
     font-family: 'Roboto Condensed';
 
 
@@ -68,7 +70,7 @@ nav a:hover{
     box-shadow: 0px 1px 2px #CCC;
     background-color: rgba(0, 0, 0, 0.39);
     position: absolute;
-    width: 87%;
+    width: 100%;
     z-index: 1000;
 }
 
@@ -79,12 +81,12 @@ nav > ul li:hover .sous{
 .sous li{
     float: none;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .sous a:hover{
     border-bottom: none;
-    background-color: rgba(200, 200, 200, 0.1);
+    background-color: rgba(0, 0, 0, 0.596);
 }
 .deroulant > a::after{
     content: " ▼";
